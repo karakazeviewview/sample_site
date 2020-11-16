@@ -1,0 +1,69 @@
+body{
+	background-color: #C0C0C0;
+}
+header{
+  position:relative;
+  width:100%;
+}
+/*
+#header{
+  width:960px;
+  height:253px;
+  background:url(../images/header_bg.png) 0 0 no-repeat;
+  background-size:cover;
+  color:#555;
+  font-size:80px;
+  text-align: center;
+  line-height: 253px;
+*/
+header h1{
+  position: absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+  background-image:url(../images/headerImg.png);
+  background-size:cover;
+  box-sizing: border-box;
+  padding:10%;
+  font-size:3.5vw;
+  color:#345;
+}
+.contents{
+  background:#eee;
+  padding:30px;
+}
+main h2{
+  background: blue;
+  color:white;
+  text-align: center;
+  font-size:3vw;
+  padding:5px 0;
+}
+footer h2{
+ background: blue;
+ color:white;
+ text-align: center;
+ font-size:3vw;
+ padding:5px 0;
+}
+@media screen and (min-width:1200px){
+  header h1{
+    font-size:3vw;
+  }
+}
+/*600px以下で適用*/
+@media screen and (max-width:600px){
+  header h1{
+		font-size:4vw;
+  }
+  main h2{
+    font-size:3.5vw;
+  }
+}
+/*480px以下で適用*/
+@media screen and (max-width:480px){
+  #floatItems img{
+		width:100%;
+		}
+}
